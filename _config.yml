@@ -1,0 +1,42 @@
+# Site settings
+title: "ImmunoChroma - Smartphone-based Immune Response Measurement"
+email: contact@immunochroma.github.io
+description: >-
+  Point-of-care colorimetric biosensor using plasmonic nanoparticles 
+  for smartphone-based antibody detection and immune response measurement.
+baseurl: ""
+url: "https://immunochroma.github.io"
+twitter_username: 
+github_username: amir-ghz
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# SEO settings
+lang: en_US
+author: ImmunoChroma Research Team
+
+# Social media
+social:
+  name: ImmunoChroma
+  links:
+    - https://github.com/amir-ghz/ImmunoChroma
+    - https://immunochroma.netlify.app
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
